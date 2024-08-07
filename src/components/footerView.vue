@@ -5,7 +5,7 @@
             <img src="/public/Group 12.png" alt="icons" class="pb-16">
         </div>
 
-        <div class="flex flex-col gap-5 text-white">
+        <div class="flex flex-col gap-5 text-white text-xs font-bold">
             <h3> Home</h3>
             <h3>Stories</h3>
             <h3>Features</h3>
@@ -13,11 +13,11 @@
         </div>
 
         <div class="flex text-white flex-col gap-24">
-            <div class="flex justify-end">
+            <div class="flex justify-end font-bold tracking-widest text-xs">
                 <router-link to="/"> GET AN INVITE</router-link>
-                <img src="/public/Group 6.png" alt="arrow" class="text-white h-full ">
+                <img src="/public/Group 6.png" alt="arrow" class="text-white h-full pl-3 ">
             </div>
-            <p class="mt-4 text-sm text-gray-400">Copyright 2019. All Rights Reserved</p>
+            <p class="mt-4 text-sm opacity-50">Copyright 2019. All Rights Reserved</p>
 
         </div>
     </div>
