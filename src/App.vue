@@ -1,3 +1,24 @@
+<!-- src/App.vue -->
+<script setup>
+import { RouterView } from 'vue-router';
+import navView from './components/navView.vue';
+</script>
+
+<template>
+  <div id="app">
+    <header>
+      
+    </header>
+    <navView/>
+    <RouterView />
+  </div>
+</template>
+
+<style scoped>
+
+</style>
+
+
 <!-- <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
