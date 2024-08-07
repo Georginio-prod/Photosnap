@@ -2,6 +2,7 @@
 <script setup>
 import { RouterView } from 'vue-router';
 import navView from './components/navView.vue';
+import MenuView from './components/menuView.vue';
 </script>
 
 <template>
@@ -11,7 +12,12 @@ import navView from './components/navView.vue';
     </header>
     <navView/>
     <RouterView />
+    
   </div>
+
+  <main>
+    <MenuView/>
+  </main>
 </template>
 
 <style scoped>
