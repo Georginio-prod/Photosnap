@@ -11,7 +11,7 @@
             </h2>
 
             <div class="flex font-bold tracking-widest text-xs">
-                <router-link to="/"> GET AN INVITE</router-link>
+                <p><router-link to="/" class="hover:underline hover:underline-offset-2">GET AN INVITE</router-link></p>
                 <img src="/public/Group 6.png" alt="arrow" class="pl-3">
             </div>
         </div>
@@ -34,7 +34,8 @@
                 with everyone.
             </h2>
             <div class="flex font-bold tracking-widest text-xs">
-                <router-link to="/"> VIEW THE STORIES</router-link>
+                <p><router-link to="/" class="hover:underline hover:underline-offset-2"> VIEW THE STORIES</router-link>
+                </p>
                 <img src="/public/shared/desktop/arrow.svg" alt="arrow" class="pl-3">
             </div>
         </div>
@@ -50,7 +51,7 @@
 
             </h2>
             <div class="flex font-bold tracking-widest text-xs">
-                <router-link to="/"> VIEW THE STORIES</router-link>
+                <router-link to="/" class="hover:underline hover:underline-offset-2"> VIEW THE STORIES</router-link>
                 <img src="/public/shared/desktop/arrow.svg" alt="arrow" class="text-white pl-3">
             </div>
         </div>
@@ -75,7 +76,7 @@
                 </div>
                 <div class="flex items-center pb-10 text-xs">
                     Read Story
-                    <img src="/public/Group 6.png" alt="arrow" class="ml-40 ">
+                    <img src="/public/Group 6.png" alt="arrow" class="ml-36">
                 </div>
             </div>
         </div>
@@ -95,7 +96,7 @@
                 </div>
                 <div class="flex items-center pb-10 text-xs">
                     Read Story
-                    <img src="/public/Group 6.png" alt="arrow" class="ml-40">
+                    <img src="/public/Group 6.png" alt="arrow" class="ml-36">
                 </div>
             </div>
         </div>
@@ -116,7 +117,7 @@
                 </div>
                 <div class="flex items-center pb-10 text-xs">
                     Read Story
-                    <img src="/public/Group 6.png" alt="arrow" class="ml-40">
+                    <img src="/public/Group 6.png" alt="arrow" class="ml-36">
                 </div>
             </div>
         </div>
@@ -136,7 +137,7 @@
                 </div>
                 <div class="flex items-center pb-10 text-xs">
                     Read Story
-                    <img src="/public/Group 6.png" alt="arrow" class="ml-40">
+                    <img src="/public/Group 6.png" alt="arrow" class="ml-36">
                 </div>
             </div>
         </div>
