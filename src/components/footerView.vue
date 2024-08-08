@@ -5,7 +5,7 @@
             <img src="/public/Group 12.png" alt="icons" class="pb-16">
         </div>
 
-        <div class="flex flex-col gap-5 text-white text-xs font-bold">
+        <div class="flex flex-col gap-5 text-white text-xs font-bold mr-48">
             <h3> Home</h3>
             <h3>Stories</h3>
             <h3>Features</h3>

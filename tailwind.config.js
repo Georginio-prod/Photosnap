@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         line: "#979797",
+        hoverbac:"#DFDFDF"
       }
     },
   },

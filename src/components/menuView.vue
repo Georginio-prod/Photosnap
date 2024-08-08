@@ -164,7 +164,7 @@
                 <img src="/public/features/desktop/no-limit.svg" alt="responsive" class="max-w-[72px]">
             </div>
 
-            <div class="text-center pt-28">
+            <div class="text-center pt-20">
                 <h1 class="pb-4 text-lg font-bold">
                     No Photo Upload Limit
                 </h1>
