@@ -1,6 +1,6 @@
 <template>
     <div class="h-full grid grid-cols-12 text-white bg-black">
-        <div class="py-44 px-28 col-span-5">
+        <div class="py-36 px-28 col-span-5">
             <h1 class="font-bold text-4xl tracking-widest pb-5">
                 CREATE AND SHARE YOUR PHOTO STORIES.
             </h1>
@@ -17,12 +17,12 @@
         </div>
 
         <div class="col-span-7">
-            <img src="/public/home/desktop/create-and-share.jpg" alt="tof" class="w-full h-[650px] object-cover">
+            <img src="/public/home/desktop/create-and-share.jpg" alt="tof" class="w-full object-cover">
         </div>
 
 
         <div class="col-span-7">
-            <img src="/public/home/desktop/beautiful-stories.jpg" alt="pc" class="w-full h-[600px] object-center ">
+            <img src="/public/home/desktop/beautiful-stories.jpg" alt="pc" class="w-full object-center ">
         </div>
         <div class="col-span-5 bg-white text-black px-28 py-32">
             <h1 class="font-bold text-4xl tracking-widest pb-5">
@@ -41,7 +41,7 @@
         </div>
 
 
-        <div class="col-span-5 bg-white text-black px-28 py-40">
+        <div class="col-span-5 bg-white text-black px-28 py-36">
             <h1 class="font-bold text-4xl tracking-widest pb-5">
                 DESIGNED FOR EVERYONE
             </h1>
@@ -56,7 +56,7 @@
             </div>
         </div>
         <div class="col-span-7">
-            <img src="/public/home/desktop/designed-for-everyone.jpg" alt="pc" class="w-full h-[600px] object-fill">
+            <img src="/public/home/desktop/designed-for-everyone.jpg" alt="pc" class="w-full object-fill">
         </div>
     </div>
 
