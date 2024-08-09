@@ -17,7 +17,7 @@ import FooterView from './components/footerView.vue';
   </div>
 
   <main>
-    <MenuView />
+    <!-- <MenuView /> -->
   </main>
 
   <footer>
