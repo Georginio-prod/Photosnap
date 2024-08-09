@@ -25,12 +25,30 @@
 // src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '@/views/HomeView.vue';
+import StoriesView from '@/views/StoriesView.vue';
+import FeaturesView from '@/views/FeaturesView.vue';
+import PricingView from '@/views/PricingView.vue';
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/StoriesView',
+    name: 'stories',
+    component: StoriesView
+  },
+  {
+    path: '/FeaturesView',
+    name:'features',
+    component: FeaturesView
+  },
+  {
+    path: '/PricingView',
+    name: 'pricing',
+    component: PricingView
   }
 ];
 
