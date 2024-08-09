@@ -1,9 +1,14 @@
-<!-- <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+<script setup>
+import MenuView from '@/components/menuView.vue';
+
+
 </script>
 
+
 <template>
-  <main>
-    <TheWelcome />
-  </main>
-</template> -->
+  <div>
+    <main>
+      <MenuView/>
+    </main>
+  </div>
+</template>

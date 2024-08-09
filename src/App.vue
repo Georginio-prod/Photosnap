@@ -1,3 +1,33 @@
+<!-- src/App.vue -->
+<script setup>
+import { RouterView } from 'vue-router';
+import navView from './components/navView.vue';
+import MenuView from './components/menuView.vue';
+import FooterView from './components/footerView.vue';
+</script>
+
+<template>
+  <div id="app">
+    <header>
+      <navView />
+      <RouterView />
+    </header>
+
+
+  </div>
+
+  <main>
+    <!-- <MenuView /> -->
+  </main>
+
+  <footer>
+    <FooterView />
+  </footer>
+</template>
+
+<style scoped></style>
+
+
 <!-- <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'

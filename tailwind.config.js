@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        line: "#979797",
+        hoverbac:"#DFDFDF"
+      }
+    },
   },
   plugins: [],
 }
