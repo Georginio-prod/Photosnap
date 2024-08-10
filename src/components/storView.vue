@@ -3,26 +3,29 @@
 </script>
 
 <template>
-    <div class="relative h-full top-0">
+    <div class="relative h-full top-0 text-white">
         <img src="/public/stories/desktop/moon-of-appalacia.jpg" alt="background">
         <div class="absolute inset-0 py-28 pl-28 w-[387px]">
-            <p> Last month's featured story</p>
-
-            <p>
-                Hazy full moon of Appalachia
+            <p class="text-xs tracking-widest font-bold pb-6">
+                LAST MONTH'S FEATURED STORY
             </p>
 
-            <p>March 2nd 2020
-                <span>by John Appleseed</span>
+            <p class="text-4xl  tracking-widest font-bold pb-4">
+                HARY FULL MOOM OF APPALACHIA
             </p>
 
-            <p>The dissected plateau area, while not actually made up of geological mountains,
+            <p class="text-xs pb-6"><span class="opacity-75"> March 2nd 2020</span>
+                by John Appleseed
+            </p>
+
+            <p class="opacity-60 text-sm pb-6">The dissected plateau area, while not actually made up of geological
+                mountains,
                 is popularly called "mountains," especially in eastern Kentucky and West Virginia,
                 and while the ridges are not high, the terrain is extremely rugged.
             </p>
 
-            <p class="flex items-center">
-                <router-link>Read the story</router-link>
+            <p class="flex items-center text-xs tracking-widest">
+                <router-link class=" hover:underline underline-offset-2">READ THE STORY</router-link>
                 <img src="/public/Group 6.png" alt="arrow" class="ml-3">
             </p>
         </div>
@@ -338,7 +341,7 @@
                             Night at The Dark Forest
                         </h1>
                         <h2 class="mb-4 text-xs">
-                            by  Mohammed Abdul
+                            by Mohammed Abdul
                         </h2>
                         <div class="w-full h-0.5 bg-line opacity-25 mb-4"></div>
                     </div>
