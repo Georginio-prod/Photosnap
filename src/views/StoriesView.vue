@@ -1,7 +1,7 @@
 <script setup>
-import MenuView from '@/components/menuView.vue';
-import NavView from '@/components/navView.vue';
+import StorView from '@/components/storView.vue';
 
+ 
 
 </script>
 
@@ -9,7 +9,7 @@ import NavView from '@/components/navView.vue';
 <template>
     <div>
         <main>
-           
+            <StorView/>
         </main>
     </div>
 </template>
