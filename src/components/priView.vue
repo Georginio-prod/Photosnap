@@ -31,7 +31,7 @@
                     <input type="checkbox" class="sr-only peer" v-model="isYearly" />
                     <span
                         class="w-16 h-8 rounded-full flex flex-shrink-0 items-center p-1 transition-colors duration-300"
-                        :class="{ 'bg-black': isYearly, 'bg-back': !isYearly,  }">
+                        :class="{ 'bg-black': isYearly, 'bg-back': !isYearly, }">
 
                         <span class="bg-black w-6 h-6 rounded-full block transform transition-transform duration-300"
                             :class="{ 'translate-x-8': isYearly, 'translate-x-0': !isYearly, 'bg-white': isYearly }"></span>
@@ -43,6 +43,23 @@
                 </span>
             </div>
         </div>
+    </div>
+
+    <div class="relative flex flex-col">
+        <img src="/public/shared/desktop/bg-beta.jpg" alt="bg">
+        <div class="absolute inset-0 text-white px-40 py-20 flex justify-between ">
+           
+
+            <p class="w-[400px] text-4xl tracking-widest font-bold">
+                WE'RE IN BETA.GET YOUR INVITE TODAY!
+               
+            </p>
+            <p class="flex items-center text-xs tracking-widest font-bold">
+                <router-link class=" hover:underline underline-offset-2">GET AN INVITE</router-link>
+                <img src="/public/Group 6.png" alt="arrow" class="ml-3">
+            </p>
+        </div>
+
     </div>
 </template>
 
