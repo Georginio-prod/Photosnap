@@ -9,6 +9,7 @@ export default {
       colors: {
         line: "#979797",
         hoverbac:"#DFDFDF",
+        back: "#DFDFDF"
       }
     },
   },
