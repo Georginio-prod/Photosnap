@@ -21,38 +21,114 @@
         <div></div>
     </div>
 
-    <div>
-        <div class="flex items-center justify-center top-0 mt-28 px-40">
-            <div class="flex items-center gap-8">
-                <span :class="{ 'opacity-50': isYearly }">
-                    Monthly
-                </span>
-                <label class="relative flex items-center cursor-pointer">
-                    <input type="checkbox" class="sr-only peer" v-model="isYearly" />
-                    <span
-                        class="w-16 h-8 rounded-full flex flex-shrink-0 items-center p-1 transition-colors duration-300"
-                        :class="{ 'bg-black': isYearly, 'bg-back': !isYearly, }">
 
-                        <span class="bg-black w-6 h-6 rounded-full block transform transition-transform duration-300"
-                            :class="{ 'translate-x-8': isYearly, 'translate-x-0': !isYearly, 'bg-white': isYearly }"></span>
-                    </span>
+    <div class="flex flex-col items-center justify-center top-0 mt-28 px-40">
+        <div class="flex items-center gap-8">
+            <span :class="{ 'opacity-50': isYearly }">
+                Monthly
+            </span>
+            <label class="relative flex items-center cursor-pointer">
+                <input type="checkbox" class="sr-only peer" v-model="isYearly" />
+                <span class="w-16 h-8 rounded-full flex flex-shrink-0 items-center p-1 transition-colors duration-300"
+                    :class="{ 'bg-black': isYearly, 'bg-back': !isYearly, }">
 
-                </label>
-                <span :class="{ 'opacity-50': !isYearly }">
-                    Yearly
+                    <span class="bg-black w-6 h-6 rounded-full block transform transition-transform duration-300"
+                        :class="{ 'translate-x-8': isYearly, 'translate-x-0': !isYearly, 'bg-white': isYearly }"></span>
                 </span>
+
+            </label>
+            <span :class="{ 'opacity-50': !isYearly }">
+                Yearly
+            </span>
+        </div>
+
+        <div class="flex items-center justify-between gap-5">
+            <div class=" flex flex-col text-center justify-center items-center px-10 my-6 pb-10 pt-14 w-96 bg-back2">
+                <h1 class="font-bold text-2xl pb-5">
+                    Basic
+                </h1>
+                <h2 class="opacity-60 text-base pb-10">
+                    Includes basic usage of our platform. Recommended for new and aspiring photographers.
+
+                </h2>
+                <div class="flex flex-col group w-full">
+                    <h1>
+                        <p class="text-4xl font-bold tracking-widest group-hover:hidden" id="price-month">$19.00</p>
+                        <span class="font-normal text-base group-hover:hidden">per month</span>
+
+                        <p id="survol" class="hidden text-4xl font-bold tracking-widest group-hover:block">$190.00</p>
+                        <span class="hidden font-normal text-base group-hover:block">per year</span>
+                    </h1>
+
+                    <button class="text-sm font-bold text-white bg-black py-3 hover:text-black hover:bg-hover mt-10">
+                        PICK PLAN
+                    </button>
+                </div>
+
+
+            </div>
+
+            <div class=" flex flex-col text-center justify-center items-center px-10 my-6 pb-10 pt-14 w-96 bg-back2">
+                <h1 class="font-bold text-2xl pb-5">
+                    Basic
+                </h1>
+                <h2 class="opacity-60 text-base pb-10">
+                    Includes basic usage of our platform. Recommended for new and aspiring photographers.
+
+                </h2>
+                <div class="flex flex-col group w-full">
+                    <h1>
+                        <p class="text-4xl font-bold tracking-widest group-hover:hidden" id="price-month">$19.00</p>
+                        <span class="font-normal text-base group-hover:hidden">per month</span>
+
+                        <p id="survol" class="hidden text-4xl font-bold tracking-widest group-hover:block">$190.00</p>
+                        <span class="hidden font-normal text-base group-hover:block">per year</span>
+                    </h1>
+
+                    <button class="text-sm font-bold text-white bg-black py-3 hover:text-black hover:bg-hover mt-10">
+                        PICK PLAN
+                    </button>
+                </div>
+
+
+            </div>
+
+            <div class=" flex flex-col text-center justify-center items-center px-10 my-6 pb-10 pt-14 w-96 bg-back2">
+                <h1 class="font-bold text-2xl pb-5">
+                    Basic
+                </h1>
+                <h2 class="opacity-60 text-base pb-10">
+                    Includes basic usage of our platform. Recommended for new and aspiring photographers.
+
+                </h2>
+                <div class="flex flex-col group w-full">
+                    <h1>
+                        <p class="text-4xl font-bold tracking-widest group-hover:hidden" id="price-month">$19.00</p>
+                        <span class="font-normal text-base group-hover:hidden">per month</span>
+
+                        <p id="survol" class="hidden text-4xl font-bold tracking-widest group-hover:block">$190.00</p>
+                        <span class="hidden font-normal text-base group-hover:block">per year</span>
+                    </h1>
+
+                    <button class="text-sm font-bold text-white bg-black py-3 hover:text-black hover:bg-hover mt-10">
+                        PICK PLAN
+                    </button>
+                </div>
+
+
             </div>
         </div>
     </div>
 
+
     <div class="relative flex flex-col">
         <img src="/public/shared/desktop/bg-beta.jpg" alt="bg">
         <div class="absolute inset-0 text-white px-40 py-20 flex justify-between ">
-           
+
 
             <p class="w-[400px] text-4xl tracking-widest font-bold">
                 WE'RE IN BETA.GET YOUR INVITE TODAY!
-               
+
             </p>
             <p class="flex items-center text-xs tracking-widest font-bold">
                 <router-link class=" hover:underline underline-offset-2">GET AN INVITE</router-link>

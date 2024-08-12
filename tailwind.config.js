@@ -9,7 +9,9 @@ export default {
       colors: {
         line: "#979797",
         hoverbac:"#DFDFDF",
-        back: "#DFDFDF"
+        back: "#DFDFDF",
+        back2: "#F5F5F5",
+        hover:"#DFDFDF"
       }
     },
   },
