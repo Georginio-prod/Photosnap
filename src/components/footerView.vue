@@ -46,7 +46,7 @@
                 <router-link to="/" class="hover:underline hover:underline-offset-2"> GET AN INVITE</router-link>
                 <img src="/public/Group 6.png" alt="arrow" class="text-white h-full pl-3 ">
             </div>
-            <p class="mt-4 text-sm opacity-50">Copyright 2019. All Rights Reserved</p>
+            <p class="mt-4 text-sm opacity-50">Copyright 2024. All Rights Reserved</p>
 
         </div>
     </div>
