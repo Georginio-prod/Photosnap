@@ -35,10 +35,10 @@
         </div>
 
         <div class="flex flex-col gap-5 text-white text-xs font-bold mr-48">
-            <h3 class="hover:opacity-30"><router-link>Home</router-link> </h3>
-            <h3 class="hover:opacity-30"><router-link>Stories</router-link></h3>
-            <h3 class="hover:opacity-30"><router-link>Features</router-link></h3>
-            <h3 class="hover:opacity-30"><router-link>Pricing</router-link></h3>
+            <h3 class="hover:opacity-30"><router-link to="/">Home</router-link> </h3>
+            <h3 class="hover:opacity-30"><router-link to="/StoriesView">Stories</router-link></h3>
+            <h3 class="hover:opacity-30"><router-link to="/FeaturesView">Features</router-link></h3>
+            <h3 class="hover:opacity-30"><router-link to="/PricingView">Pricing</router-link></h3>
         </div>
 
         <div class="flex text-white flex-col gap-24">
