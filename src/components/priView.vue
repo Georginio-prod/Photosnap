@@ -1,7 +1,3 @@
-<script setup>
-  
-</script>
-
 <template>
     <div class="flex items-center justify-center w-full h-auto">
         <div class="grid grid-cols-12">
@@ -14,19 +10,65 @@
                     <h2 class="text-sm opacity-60">
                         Create a your stories, Photosnap is a platform for photographers and visual storytellers.
                         It’s the simple way to create and share your photos.
-
                     </h2>
                 </div>
             </div>
             <div class="w-full col-span-7">
                 <img src="/public/pricing/desktop/hero.jpg" alt="hero">
-
             </div>
-
         </div>
 
-        <div>
-            
+        <div></div>
+    </div>
+
+    <div>
+        <div class="flex items-center justify-center top-0 mt-28 px-40">
+            <div class="flex items-center gap-8">
+                <span :class="{ 'opacity-50': isYearly }">
+                    Monthly
+                </span>
+                <label class="relative flex items-center cursor-pointer">
+                    <input type="checkbox" class="sr-only peer" v-model="isYearly" />
+                    <span
+                        class="w-16 h-8 rounded-full flex flex-shrink-0 items-center p-1 transition-colors duration-300"
+                        :class="{ 'bg-black': isYearly, 'bg-back': !isYearly, }">
+
+                        <span class="bg-black w-6 h-6 rounded-full block transform transition-transform duration-300"
+                            :class="{ 'translate-x-8': isYearly, 'translate-x-0': !isYearly, 'bg-white': isYearly }"></span>
+                    </span>
+
+                </label>
+                <span :class="{ 'opacity-50': !isYearly }">
+                    Yearly
+                </span>
+            </div>
         </div>
     </div>
+
+    <div class="relative flex flex-col">
+        <img src="/public/shared/desktop/bg-beta.jpg" alt="bg">
+        <div class="absolute inset-0 text-white px-40 py-20 flex justify-between ">
+           
+
+            <p class="w-[400px] text-4xl tracking-widest font-bold">
+                WE'RE IN BETA.GET YOUR INVITE TODAY!
+               
+            </p>
+            <p class="flex items-center text-xs tracking-widest font-bold">
+                <router-link class=" hover:underline underline-offset-2">GET AN INVITE</router-link>
+                <img src="/public/Group 6.png" alt="arrow" class="ml-3">
+            </p>
+        </div>
+
+    </div>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            isYearly: false
+        };
+    }
+};
+</script>
