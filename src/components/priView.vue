@@ -22,8 +22,8 @@
     </div>
 
 
-    <div class="flex flex-col items-center justify-center top-0 mt-28 px-40">
-        <div class="flex items-center gap-8">
+    <div class="flex flex-col items-center justify-center top-0 mt-28 px-40 gap-11 mb-40">
+        <div class="flex items-center gap-6">
             <span :class="{ 'opacity-50': isYearly }">
                 Monthly
             </span>
@@ -42,7 +42,7 @@
             </span>
         </div>
 
-        <div class="flex items-center justify-between gap-5">
+        <div class="flex items-center justify-between gap-6">
             <div class=" flex flex-col text-center justify-center items-center px-10 my-6 pb-10 pt-14 w-96 bg-back2">
                 <h1 class="font-bold text-2xl pb-5">
                     Basic
@@ -68,45 +68,46 @@
 
             </div>
 
-            <div class=" flex flex-col text-center justify-center items-center px-10 my-6 pb-10 pt-14 w-96 bg-back2">
+            <div
+                class="relative flex flex-col text-center justify-center items-center px-10 my-6 pb-10 pt-24 w-96 bg-black text-white">
+                <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-linear via-linear1 to-linear2">
+                </div>
                 <h1 class="font-bold text-2xl pb-5">
-                    Basic
+                    Pro
                 </h1>
                 <h2 class="opacity-60 text-base pb-10">
-                    Includes basic usage of our platform. Recommended for new and aspiring photographers.
-
+                    More advanced features available. Recommended for photography veterans and professionals.
                 </h2>
-                <div class="flex flex-col group w-full">
+                <div class="flex flex-col group w-full pb-10">
                     <h1>
-                        <p class="text-4xl font-bold tracking-widest group-hover:hidden" id="price-month">$19.00</p>
+                        <p class="text-4xl font-bold tracking-widest group-hover:hidden" id="price-month">$39.00</p>
                         <span class="font-normal text-base group-hover:hidden">per month</span>
 
-                        <p id="survol" class="hidden text-4xl font-bold tracking-widest group-hover:block">$190.00</p>
+                        <p id="survol" class="hidden text-4xl font-bold tracking-widest group-hover:block"> $390.00 </p>
                         <span class="hidden font-normal text-base group-hover:block">per year</span>
                     </h1>
 
-                    <button class="text-sm font-bold text-white bg-black py-3 hover:text-black hover:bg-hover mt-10">
+                    <button class="text-sm font-bold text-black bg-white py-3 hover:text-black hover:bg-hover mt-10">
                         PICK PLAN
                     </button>
                 </div>
-
-
             </div>
 
+
             <div class=" flex flex-col text-center justify-center items-center px-10 my-6 pb-10 pt-14 w-96 bg-back2">
                 <h1 class="font-bold text-2xl pb-5">
-                    Basic
+                    Business
                 </h1>
                 <h2 class="opacity-60 text-base pb-10">
-                    Includes basic usage of our platform. Recommended for new and aspiring photographers.
+                    Additional features available such as more detailed metrics. Recommended for business owners.
 
                 </h2>
                 <div class="flex flex-col group w-full">
                     <h1>
-                        <p class="text-4xl font-bold tracking-widest group-hover:hidden" id="price-month">$19.00</p>
+                        <p class="text-4xl font-bold tracking-widest group-hover:hidden" id="price-month">$99.00</p>
                         <span class="font-normal text-base group-hover:hidden">per month</span>
 
-                        <p id="survol" class="hidden text-4xl font-bold tracking-widest group-hover:block">$190.00</p>
+                        <p id="survol" class="hidden text-4xl font-bold tracking-widest group-hover:block">$990.00 </p>
                         <span class="hidden font-normal text-base group-hover:block">per year</span>
                     </h1>
 
@@ -114,10 +115,82 @@
                         PICK PLAN
                     </button>
                 </div>
+
 
 
             </div>
         </div>
+
+        <div class="flex flex-col items-center justify-center w-full mt-20">
+            <div class="font-bold text-4xl tracking-widest">
+                COMPARE
+            </div>
+            <div class="flex mt-14 text-sm font-bold">
+                <div class="w-full">
+                    <table class="w-full text-left">
+                        <thead class="bg-white border-b-2 border-black">
+                            <tr>
+                                <th class="p-6">THE FEATURES</th>
+                                <th class="p-6">BASIC</th>
+                                <th class="p-6">PRO</th>
+                                <th class="p-6">BUSINESS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b">
+                                <td class="p-6">UNLIMITED STORY POSTING</td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-6">UNLIMITED PHOTO UPLOAD</td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-6">EMBEDDING CUSTOM CONTENT</td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-6">CUSTOMIZE METADATA</td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-6">ADVANCED METRICS</td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-6">PHOTO DOWNLOADS</td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-6">SEARCH ENGINE INDEXING</td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-6">CUSTOM ANALYTICS</td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 
