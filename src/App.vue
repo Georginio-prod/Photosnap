@@ -4,6 +4,7 @@ import { RouterView } from 'vue-router';
 import navView from './components/navView.vue';
 import MenuView from './components/menuView.vue';
 import FooterView from './components/footerView.vue';
+
 </script>
 
 <template>
