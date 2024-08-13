@@ -23,7 +23,7 @@
 
 
     <div class="flex flex-col items-center justify-center top-0 mt-28 px-40 gap-11 mb-40">
-        <div class="flex items-center gap-8">
+        <div class="flex items-center gap-6">
             <span :class="{ 'opacity-50': isYearly }">
                 Monthly
             </span>
@@ -42,7 +42,7 @@
             </span>
         </div>
 
-        <div class="flex items-center justify-between gap-8">
+        <div class="flex items-center justify-between gap-6">
             <div class=" flex flex-col text-center justify-center items-center px-10 my-6 pb-10 pt-14 w-96 bg-back2">
                 <h1 class="font-bold text-2xl pb-5">
                     Basic
@@ -120,6 +120,77 @@
 
             </div>
         </div>
+
+        <div class="flex flex-col items-center justify-center w-full mt-20">
+            <div class="font-bold text-4xl tracking-widest">
+                COMPARE
+            </div>
+            <div class="flex mt-14 text-sm font-bold">
+                <div class="w-full">
+                    <table class="w-full text-left">
+                        <thead class="bg-white border-b-2 border-black">
+                            <tr>
+                                <th class="p-6">THE FEATURES</th>
+                                <th class="p-6">BASIC</th>
+                                <th class="p-6">PRO</th>
+                                <th class="p-6">BUSINESS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b">
+                                <td class="p-6">UNLIMITED STORY POSTING</td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-6">UNLIMITED PHOTO UPLOAD</td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-6">EMBEDDING CUSTOM CONTENT</td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-6">CUSTOMIZE METADATA</td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-6">ADVANCED METRICS</td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-6">PHOTO DOWNLOADS</td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-6">SEARCH ENGINE INDEXING</td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-6">CUSTOM ANALYTICS</td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"></td>
+                                <td class="p-6 text-center"><img src="/public/Path 5.svg" alt="coche"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 
