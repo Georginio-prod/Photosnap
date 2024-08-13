@@ -8,7 +8,13 @@ export default {
     extend: {
       colors: {
         line: "#979797",
-        hoverbac:"#DFDFDF"
+        hoverbac:"#DFDFDF",
+        back: "#DFDFDF",
+        back2: "#F5F5F5",
+        hover:"#DFDFDF",
+        linear:"#FFC593",
+        linear1:"#BC7198",
+        linear2:"#5A77FF"
       }
     },
   },

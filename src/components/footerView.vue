@@ -35,10 +35,10 @@
         </div>
 
         <div class="flex flex-col gap-5 text-white text-xs font-bold mr-48">
-            <h3 class="hover:opacity-30"><router-link>Home</router-link> </h3>
-            <h3 class="hover:opacity-30"><router-link>Stories</router-link></h3>
-            <h3 class="hover:opacity-30"><router-link>Features</router-link></h3>
-            <h3 class="hover:opacity-30"><router-link>Pricing</router-link></h3>
+            <h3 class="hover:opacity-30"><router-link to="/">Home</router-link> </h3>
+            <h3 class="hover:opacity-30"><router-link to="/StoriesView">Stories</router-link></h3>
+            <h3 class="hover:opacity-30"><router-link to="/FeaturesView">Features</router-link></h3>
+            <h3 class="hover:opacity-30"><router-link to="/PricingView">Pricing</router-link></h3>
         </div>
 
         <div class="flex text-white flex-col gap-24">
@@ -46,7 +46,7 @@
                 <router-link to="/" class="hover:underline hover:underline-offset-2"> GET AN INVITE</router-link>
                 <img src="/public/Group 6.png" alt="arrow" class="text-white h-full pl-3 ">
             </div>
-            <p class="mt-4 text-sm opacity-50">Copyright 2019. All Rights Reserved</p>
+            <p class="mt-4 text-sm opacity-50">Copyright 2024. All Rights Reserved</p>
 
         </div>
     </div>
