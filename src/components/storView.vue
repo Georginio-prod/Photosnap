@@ -25,7 +25,7 @@
             </p>
 
             <p class="flex items-center text-xs tracking-widest">
-                <router-link class=" hover:underline underline-offset-2">READ THE STORY</router-link>
+                <router-link to="/StoriesView" class=" hover:underline underline-offset-2">READ THE STORY</router-link>
                 <img src="/public/Group 6.png" alt="arrow" class="ml-3">
             </p>
         </div>

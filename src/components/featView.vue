@@ -137,7 +137,7 @@
                
             </p>
             <p class="flex items-center text-xs tracking-widest font-bold">
-                <router-link class=" hover:underline underline-offset-2">GET AN INVITE</router-link>
+                <router-link to="/" class=" hover:underline underline-offset-2">GET AN INVITE</router-link>
                 <img src="/public/Group 6.png" alt="arrow" class="ml-3">
             </p>
         </div>
