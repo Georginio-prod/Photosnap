@@ -1,118 +1,76 @@
-# web18
+# Photosnap — Site multi-pages (Frontend Mentor)
 
-This template should help get you started developing with Vue 3 in Vite.
+![Vue](https://img.shields.io/badge/Vue-3-4FC08D?logo=vue.js&logoColor=white)
+![Vue Router](https://img.shields.io/badge/Vue_Router-4-4FC08D?logo=vue.js&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?logo=tailwindcss&logoColor=white)
+![Frontend Mentor](https://img.shields.io/badge/Frontend_Mentor-Challenge-3F54A3)
 
-## Recommended IDE Setup
+🔗 **Démo en ligne** : <https://photosnap-tau-blush.vercel.app>
+📦 **Code source** : <https://github.com/Georginio-prod/Photosnap>
+🎯 **Défi** : [Photosnap multi-page website](https://www.frontendmentor.io/challenges/photosnap-multipage-website-nMDSrNmNW) (niveau *Advanced*)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Customize configuration
+## 📌 Présentation
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Site vitrine de **Photosnap**, plateforme fictive de partage de photos : 4 pages
+(Accueil, Stories, Features, Pricing) au design très visuel (grandes photographies,
+sections alternées image / texte, dégradé signature sur les titres).
 
-## Project Setup
+Le défi est classé *Advanced* : il combine **routing multi-pages**, **grilles d'images
+responsives**, **toggle de prix** et **tableau comparatif** des formules.
 
-```sh
-npm install
+## ✨ Fonctionnalités
+
+- **Accueil** : sections alternées texte / image plein écran, grille de « stories » avec effet *hover*, liste de fonctionnalités.
+- **Stories** (`/StoriesView`) : histoire mise en avant + grille de 16 cartes avec dates, auteurs et lien « Read Story ».
+- **Features** (`/FeaturesView`) : présentation des 6 fonctionnalités clés.
+- **Pricing** (`/PricingView`) : toggle mensuel / annuel, 3 formules, tableau comparatif « Compare » responsive.
+- Navigation commune (navbar + footer) et menu mobile.
+
+## 🛠️ Stack
+
+Vue 3 · Vue Router 4 · Vite 5 · Tailwind CSS 3.
+
+## 📁 Structure
+
+```
+Photosnap/
+├── src/
+│   ├── App.vue · main.js · assets/main.css
+│   ├── router/index.js       # /, /StoriesView, /FeaturesView, /PricingView
+│   ├── views/                # HomeView, StoriesView, FeaturesView, PricingView
+│   └── components/
+│       ├── navView.vue · menuView.vue · footerView.vue
+│       ├── storView.vue      # Grille de stories
+│       ├── featView.vue      # Liste de fonctionnalités
+│       └── priView.vue       # Formules + tableau comparatif
+├── public/                   # Photos (mobile / tablet / desktop)
+└── tailwind.config.js · vite.config.js
 ```
 
-### Compile and Hot-Reload for Development
+## 🚀 Installation & lancement
 
-```sh
+```bash
+git clone https://github.com/Georginio-prod/Photosnap.git
+cd Photosnap
+npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
+## 🌐 Déploiement
 
-```sh
-npm run build
-```
+Déployé sur **Vercel**. Aucune configuration nécessaire.
 
+---
 
+## 👤 Auteur
 
-## Overview
+**Komla Etonam Georges EKLOU** (Georginio) — Développeur Full Stack Web & Web3
 
-### The challenge
+[![GitHub](https://img.shields.io/badge/GitHub-Georginio--prod-181717?logo=github)](https://github.com/Georginio-prod)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profil-0A66C2?logo=linkedin)](https://www.linkedin.com/in/komla-etonam-georges-eklou-68518b23b)
+[![Portfolio](https://img.shields.io/badge/Portfolio-georginio.w3frame.com-6C63FF)](https://georginio.w3frame.com/)
 
-Users should be able to:
-
-- View the optimal layout for each page depending on their device's screen size
-- See hover states for all interactive elements throughout the site
-
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties/ tailwind
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [Vue](https://reactjs.org/) - JS library
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+> 📚 Tous mes projets sont listés et documentés sur mon [profil GitHub](https://github.com/Georginio-prod).
